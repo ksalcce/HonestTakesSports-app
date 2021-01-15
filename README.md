@@ -1,8 +1,8 @@
 # Honest Takes
 
-[Live App:](https://honest-takes-app.skang28.now.sh/)
+[Live App](https://honest-takes-app.skang28.now.sh/)
 
-[HonestTakes API:](https://github.com/ksalcce/HonestTakes-API)
+[HonestTakes API](https://github.com/ksalcce/HonestTakes-API)
 
 ## Summary
 Honest Takes is an app centered around anonymous discussion about current sports topics. It is a forum/discussion style app where users post their own opinions centered around a daily topic. Users can also comment on other users' posts.
