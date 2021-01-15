@@ -1,0 +1,300 @@
+.homePage {
+    text-align: center;
+    color: #D6DCFF;
+}
+
+html {
+    background-color: #474954;
+}
+
+h1 {
+    font-size: 5em;
+    margin-bottom: 0.2em;
+}
+
+h2 {
+    margin-bottom: 1em;
+    font-size: 2.5em;
+}
+
+h3 {
+    margin-bottom: 1em;
+}
+
+p {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+}
+
+.homePageHeader {
+    margin-bottom: 8em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.homePageMain {
+    display:flex;
+    flex-direction: row;
+    align-content: space-around;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.textWrapper {
+    width: 70%;
+    padding-right: 8em;
+    padding-left: 15em;
+    margin-left: 12em;
+    font-size: 1.1em;
+}
+
+.homeButton {
+    margin: auto 35em auto 0;
+    width: 20em;
+    height: 5em;
+    text-align:center;
+    text-decoration: none;
+    border-radius: 0.12em;
+    background-color: #FFF5D6;
+    color: black;
+    font-weight: bold;
+    -webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+    transition: all 0.5s;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.homeButton:hover {
+    background-color: #B3A372;
+    -webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1700px) {
+    .textWrapper {
+        width: 65%;
+    }
+
+    .homeButton {
+        margin-right: 25em;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .textWrapper {
+        width: 60%;
+        padding-right: 5em;
+        padding-left: 5em;
+    }
+
+    .homeButton {
+        margin-right: 20em;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .textWrapper {
+        width: 60%;
+        padding-right: 5em;
+        padding-left: 5em;
+        margin-left: 8em;
+    }
+
+    .homeButton {
+        margin-right: 15em;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .textWrapper {
+        width: 60%;
+        padding-right: 5em;
+        padding-left: 2em;
+        margin-left: 8em;
+    }
+
+    .homeButton {
+        margin-right: 10em;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .textWrapper {
+        width: 70%;
+        margin: 1em auto 1em auto;
+        font-size: 1.3em;
+        padding: 0;
+    }
+
+    .homeButton {
+        margin: 1em auto 1em auto;
+        width:15em;
+        height: 4em;
+    }
+
+    .homePageMain {
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+    }
+
+    .homePageHeader {
+        margin-bottom: 1em;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .textWrapper {
+        width: 70%;
+        margin: 1em auto 1em auto;
+        font-size: 1.3em;
+        padding: 0;
+    }
+
+    .homeButton {
+        margin: 1em auto 1em auto;
+        width:15em;
+        height: 4em;
+    }
+
+    .homePageMain {
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+    }
+
+    .homePageHeader {
+        margin-bottom: 1em;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .textWrapper {
+        width: 70%;
+        margin: 1em auto 1em auto;
+        font-size: 1.2em;
+        padding: 0;
+    }
+
+    .homeButton {
+        height: 3.5em;
+    }
+
+    header h1 {
+        font-size: 4em;
+    }
+
+    header h2 {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .textWrapper {
+        width: 70%;
+        margin: 1em auto 1em auto;
+        font-size: 1.1em;
+        padding: 0;
+    }
+
+    .homeButton {
+        height: 4em;
+        font-size: 0.8em;
+    }
+
+    header h1 {
+        font-size: 3.5em;
+    }
+
+    header h2 {
+        font-size: 1.75em;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .textWrapper {
+        width: 70%;
+        margin: 1em auto 1em auto;
+        font-size: 0.9em;
+        padding: 0;
+    }
+
+    .homeButton {
+        height: 4em;
+        font-size: 0.7em;
+    }
+
+    header h1 {
+        font-size: 3em;
+    }
+
+    header h2 {
+        font-size: 1.5em;
+    }
+
+    .homePageHeader {
+        margin-bottom: 4em;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .textWrapper {
+        width: 70%;
+        margin: 1em auto 1em auto;
+        font-size: 0.8em;
+        padding: 0;
+    }
+
+    .homeButton {
+        height: 3.5em;
+        font-size: 0.7em;
+    }
+
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    header h2 {
+        font-size: 1.2em;
+    }
+
+    .homePageHeader {
+        margin-bottom: 3em;
+    }
+
+}
+
+@media only screen and (max-width: 350px) {
+    .textWrapper {
+        width: 80%;
+        margin: 1em auto 1em auto;
+        font-size: 0.6em;
+        padding: 0;
+    }
+
+    .homeButton {
+        height: 3.5em;
+        font-size: 0.5em;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    header h2 {
+        font-size: 1em;
+    }
+
+    .homePageHeader {
+        margin-bottom: 2em;
+    }
+
+}

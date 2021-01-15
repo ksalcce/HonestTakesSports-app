@@ -1,0 +1,148 @@
+.singlePost {
+    text-align: center;
+    width: 50%;
+    margin: 5em auto 0 auto;
+}
+
+
+.onlyPost {
+    border: solid;
+    border-color: #A9B3CE;
+    border-radius: 0.5em;
+    color: black;
+    margin-bottom: 5em;
+    margin-top: 1em;
+    padding: 1em;
+    position: relative;
+    background-color: #7284A8;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 1.2em;
+}
+
+.postDate {
+    font-size: 0.75em;
+    color: black;
+    margin: 0;
+    position: absolute;
+    top: 0.1em;
+    right: 0.5em;
+}
+
+.onlyComment {
+    margin-bottom: 3em;
+}
+
+div.onlyComment:empty {
+    border: none;
+}
+
+.postTitle {
+    font-size: 2em;
+    display: block;
+}
+
+.addCommentButton {
+    margin: 0 auto 5em auto;
+    width: 17em;
+    height: 3em;
+    text-align:center;
+    text-decoration: none;
+    border-radius: 0.12em;
+    background-color: #FFF5D6;
+    color: black;
+    display: block;
+    -webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+    transition: all 0.5s;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.addCommentButton:hover {
+    background-color: #B3A372;
+    -webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.addComment-text {
+    width: 70%;
+    height: 7em;
+    margin: 3em auto 1em auto;
+    border-color: black;
+}
+
+.commentTitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+}
+
+.addCommentError {
+    font-size: 1.2em;
+    color: #D6DCFF;
+}
+
+@media only screen and (max-width: 1400px) {
+    .addCommentButton {
+        width: 15em;
+    }
+
+    .singlePost {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .addCommentButton {
+        width: 13em;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .addCommentButton {
+        font-size: 0.9em;
+    }
+
+    .singlePost {
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .singlePost {
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .addCommentButton {
+        width: 12em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .onlyPost {
+        font-size: 0.8em;
+    }
+
+    .addCommentButton {
+        width: 10em;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .addCommentButton {
+        width: 10em;
+        font-size: 0.7em;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .addCommentButton {
+        width: 10em;
+        font-size: 0.6em;
+    }
+}
