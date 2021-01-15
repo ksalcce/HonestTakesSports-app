@@ -11,7 +11,7 @@ Honest Takes is an app centered around anonymous discussion about current sports
 ![Home Page](screenshots/HomePage.png)
 
 2. On the main posts page, user can see all posts already created by other users. Click on a post to see/create any comments or click on the 'Add Post' button to create a new post. 
-![Posts Page](screenshots/PostsPage.png)
+![Posts Page](screenshots/Posts.png)
 
 3. If user creates a new post, screen displays two textareas, one for a title/summary of post, and one for the post's content. User will enter post's information then hit 'Create Post' to add the post to the main list of posts. 
 ![Add Post Page](screenshots/AddPostPage.png)
